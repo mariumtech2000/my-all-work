@@ -1,0 +1,136 @@
+body{
+  background: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+header{
+  background-color: #272d21;
+  padding-top:35px;
+  padding-bottom: 35px;
+  color: white;
+  text-align: center; 
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  font-family: 'Rum Raisin', sans-serif;
+
+}
+
+span{
+  background:linear-gradient(to right, #f64f1b,#279acb,#48c379);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+img{
+  height: 100px;
+}
+
+.list-container {
+  background:#c8bcbc5e;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+  border-top: 3px dotted #e5e5e5;
+  border-bottom: 3px dotted #e5e5e5;
+  box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+  margin-bottom: 1px;
+}
+
+
+.books-img-div{
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 260px;
+ width: 190px;
+ min-width: 190px;
+ border-radius: 5px;
+ margin: 1em;
+ background-size: cover;
+ background-position: center;
+}
+
+.img-hover{
+
+  top: 0;
+  left:0;
+  background:rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  margin:0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.books-img-div:hover > p{
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+.book-img {
+  height: 120px;
+  width: 100%;
+  background:#8080805e;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#box{
+ background: linear-gradient(
+  rgba(0,0,0,0.5),
+  rgba(208, 139, 139,0.5)),
+  url(img/bg.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ padding: 6%;
+ justify-content: center;
+ align-items: flex-start;
+ text-align: center;
+
+}
+
+.card{
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+  font-weight: 50%;
+  font-size: 27px;
+  font-family: 'Rum Raisin', sans-serif;
+
+
+
+}
+
+.card-body{
+  padding-top: 0;
+}
+
+#book-title{
+  margin-bottom: 16px;
+}
+
+#book-author{
+  margin-top: 5px;
+}
+.book-img{
+  margin-top: 15px;
+  margin-bottom: 8px; 
+}
+
+.card-text{
+  margin-top: 10px;
+}

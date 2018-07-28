@@ -1,0 +1,30 @@
+body{
+	 background-image: url(img/img3.jpg);
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 padding: 50px;
+
+}
+
+section{
+	text-align: center;
+}
+
+input{
+	font-family: 'Merienda', cursive;
+	background-color: gold;
+	border:10px solid orange;
+	padding: 50px;
+	border-radius: 8px;
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	margin-left: -250px;
+	margin-top: 300px;
+	padding: 40px;
+}
+
+input:hover{
+	background-color:orange;
+	cursor: pointer;
+}

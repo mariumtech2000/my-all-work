@@ -1,0 +1,33 @@
+body{
+	background:url("../images/sweet/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: cursive;
+}
+
+section{
+	display:inline;
+	margin:0;
+	padding: 10px;
+
+}
+
+img{
+	border-radius:100%;
+	padding: 10%;
+	height: 30%;
+	width: 30%;
+}
+span{
+	padding: 0%;
+	margin-top: 20%;
+	margin-right: 20%;
+	display: inline-block;
+	float: right;
+	color: black;
+	font-size: 35px; 
+}
+
+img:hover{
+opacity: 0.8;
+}

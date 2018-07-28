@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    color: white;
+    font-family: 'Rum Raisin', sans-serif;
+
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background:linear-gradient(
+        rgba(20,20,20,0.4),
+        rgba(20,20,20,0.4)),
+    url(../images/bg8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right {
+    right: 0;
+    background:linear-gradient(
+        rgba(20,20,20,0.4),
+        rgba(20,20,20,0.4)),
+    url(../images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 180px;
+    border-radius: 50%;
+} 
+
+h2{
+    font-size: 35px;
+    
+}
